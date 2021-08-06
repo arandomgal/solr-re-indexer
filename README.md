@@ -26,8 +26,8 @@ Launching subshell in virtual environment...
  . /Users/ying/.local/share/virtualenvs/solr-re-indexer-Q324kecP/bin/activate
  %  . /Users/ying/.local/share/virtualenvs/solr-re-indexer-Q324kecP/bin/activate
 solr-re-indexer % python3 solr-re-indexer.py -s server1.ying.com:7001 -t server2.ying.com:8983 -c test -u xxx -p xxx -b 10
-Do we need to use HTTPS for server1.ying.com:7001? (Y/N) Y
-Do we need to use HTTPS for server2.ying.com:8983? (Y/N) Y
+Do we need to use HTTPS for server1.ying.com:7001? (Y/N) N
+Do we need to use HTTPS for server2.ying.com:8983? (Y/N) N
 	Collection name:  test
 	Total document count:  27
 	Batch size: 10
